@@ -76,7 +76,7 @@ Peter:网站维护、旅行拍照Smily:网站文档、撰写鸡汤
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
-			<img src="null" class="js-avatar">
+			<img src="http://p1.bpimg.com/4851/2f8273ad74750e9a.jpg" class="js-avatar">
 		</a>
 		<hgroup>
 		  <h1 class="header-author"><a href="/">Peter&amp;Smily</a></h1>
@@ -90,18 +90,12 @@ Peter:网站维护、旅行拍照Smily:网站文档、撰写鸡汤
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/tags/随笔/">随笔</a></li>
-	        
 			</ul>
 		</nav>
 		<nav class="header-smart-menu">
     		
     			
     			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
-    			
-            
-    			
-    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
     			
             
     			
@@ -134,7 +128,7 @@ Peter:网站维护、旅行拍照Smily:网站文档、撰写鸡汤
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="null" class="js-avatar">
+				<img src="http://p1.bpimg.com/4851/2f8273ad74750e9a.jpg" class="js-avatar">
 			</div>
 			<hgroup>
 			  <h1 class="header-author js-header-author">Peter&amp;Smily</h1>
@@ -143,8 +137,6 @@ Peter:网站维护、旅行拍照Smily:网站文档、撰写鸡汤
 			<p class="header-subtitle"><i class="icon icon-quo-left"></i>要怎样和程序猿谈一场没有bug的恋爱<i class="icon icon-quo-right"></i></p>
 			
 			
-			
-				
 			
 				
 			
@@ -166,9 +158,7 @@ Peter:网站维护、旅行拍照Smily:网站文档、撰写鸡汤
 				<ul style="width: 50%">
 				
 				
-					<li style="width: 50%"><a href="/">主页</a></li>
-		        
-					<li style="width: 50%"><a href="/tags/随笔/">随笔</a></li>
+					<li style="width: 100%"><a href="/">主页</a></li>
 		        
 				</ul>
 			</nav>
@@ -228,7 +218,7 @@ Peter:网站维护、旅行拍照Smily:网站文档、撰写鸡汤
             <span class="tooltip-content">
               <span class="tooltip-text">
                 <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我俩吃糖果<i class="icon icon-quo-right"></i></p>
                   <div class="reward-box">
                     
                     
@@ -312,7 +302,25 @@ Peter:网站维护、旅行拍照Smily:网站文档、撰写鸡汤
 
 
   
-    <div class="duoshuo"></div>
+  <div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="Hello World" data-title="Hello World" data-url="http://yoursite.com/2017/01/12/Hello World/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"没有bug的恋爱"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
   
 
 
@@ -365,25 +373,17 @@ Peter:网站维护、旅行拍照Smily:网站文档、撰写鸡汤
       
       
     
-      
-      
-      
-    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
-      
-        
-      
-      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -447,27 +447,11 @@ Peter:网站维护、旅行拍照Smily:网站文档、撰写鸡汤
     
 
     
-    	<section class="tools-section tools-section-friends" q-show="friends">
-  		
-        <ul class="search-ul">
-          
-            <li class="search-li">
-              <a href="http://weibo.com/peter7758" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>Peter</a>
-            </li>
-          
-            <li class="search-li">
-              <a href="http://weibo.com/peter7758" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>Smily</a>
-            </li>
-          
-        </ul>
-  		
-    	</section>
-    
 
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">&lt;br&gt;&lt;br&gt;我们&lt;br&gt;&lt;br&gt;谢谢大家</div>
   	  	
     	</section>
     
